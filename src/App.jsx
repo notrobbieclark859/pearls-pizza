@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
 import Home from "./pages/Home";
@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/pearls-pizza">
+    <HashRouter>
       <div className="app">
         <Nav />
         <main className="app__main">
@@ -20,6 +20,6 @@ export default function App() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
