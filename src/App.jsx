@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pearls-pizza">
       <div className="app">
         <Nav />
         <main className="app__main">
