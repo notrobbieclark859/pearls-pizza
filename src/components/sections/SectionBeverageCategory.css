@@ -1,0 +1,42 @@
+.section-beverage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.section-beverage__group,
+.section-beverage__simple-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.section-beverage__sublabel {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-xl-size);
+  line-height: var(--type-body-xl-lh);
+  color: var(--color-text-subtle);
+}
+
+.section-beverage__wines {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Simple text list (Beer, N/A Bevs) */
+.section-beverage__simple-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.section-beverage__simple-item {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--color-text-primary);
+}

@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Centered content container */
+.home__content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-24) var(--content-padding);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+/* Hours + Reservations side-by-side */
+.home__info-row {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.home__info-row > * {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Featured menu section */
+.home__featured {
+  background-color: var(--color-bg-primary);
+  padding: var(--space-24) 0;
+}
+
+.home__featured-inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--content-padding);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.home__featured-heading {
+  font-family: var(--font-display);
+  font-weight: var(--type-h1-weight);
+  font-size: var(--type-h1-size);
+  line-height: var(--type-h1-lh);
+  color: var(--color-text-primary);
+}
+
+.home__featured-cards {
+  display: flex;
+  gap: var(--space-4);
+  align-items: stretch;
+}

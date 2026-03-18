@@ -1,0 +1,119 @@
+.pizza-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page header */
+.pizza-menu__header {
+  background-color: var(--color-bg-primary);
+  padding: var(--space-16) 0 var(--space-12);
+}
+
+.pizza-menu__header-inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--content-padding);
+}
+
+/* Two-column menu layout */
+.pizza-menu__content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-16) var(--content-padding);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+.pizza-menu__col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+/* Dippers */
+.pizza-menu__dippers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.pizza-menu__dippers-heading {
+  font-family: var(--font-display);
+  font-weight: var(--type-h1-weight);
+  font-size: var(--type-h1-size);
+  line-height: var(--type-h1-lh);
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.pizza-menu__dippers-price {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-lg-size);
+  line-height: var(--type-body-lg-lh);
+  color: var(--color-text-accent);
+}
+
+.pizza-menu__dippers-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-8);
+}
+
+.pizza-menu__dipper-item {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--color-text-secondary);
+}
+
+/* Two-column drinks grid: wines left, cocktails right */
+.pizza-menu__drinks {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-16) var(--content-padding);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+.pizza-menu__cocktails {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.pizza-menu__cocktails-heading {
+  font-family: var(--font-display);
+  font-weight: var(--type-h1-weight);
+  font-size: var(--type-h1-size);
+  line-height: var(--type-h1-lh);
+  color: var(--color-text-primary);
+}
+
+.pizza-menu__cocktails-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Gratuity notice */
+.pizza-menu__gratuity {
+  text-align: center;
+  padding: var(--space-8) var(--content-padding);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-label-size);
+  line-height: var(--type-label-lh);
+  color: var(--color-text-subtle);
+}

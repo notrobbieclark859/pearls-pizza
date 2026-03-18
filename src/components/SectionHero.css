@@ -1,0 +1,80 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  padding: 16px 32px;
+}
+
+.hero__logo {
+  width: 814.5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hero__tagline {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.hero__address {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #e6eae7;
+}
+
+.hero__slogan {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #93c4c8;
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 96px;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.hero__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border: 2px solid #c47987;
+  border-radius: 8px;
+  background: transparent;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  color: #c47987;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.hero__btn:hover {
+  background-color: #c47987;
+  color: #1a1a1a;
+}

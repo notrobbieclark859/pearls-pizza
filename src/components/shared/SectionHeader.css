@@ -1,0 +1,22 @@
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 584px;
+}
+
+.section-header__title {
+  font-family: var(--font-display);
+  font-weight: var(--type-h1-weight);
+  font-size: var(--type-h1-size);
+  line-height: var(--type-h1-lh);
+  color: var(--color-text-primary);
+}
+
+.section-header__subtitle {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-lg-size);
+  line-height: var(--type-body-lg-lh);
+  color: var(--color-text-secondary);
+}

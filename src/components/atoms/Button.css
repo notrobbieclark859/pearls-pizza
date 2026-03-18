@@ -1,0 +1,40 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px var(--space-6);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: var(--type-label-weight);
+  font-size: var(--type-label-size);
+  line-height: var(--type-label-lh);
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  border: 2px solid transparent;
+}
+
+/* Primary: filled pink */
+.btn--primary {
+  background-color: var(--color-brand-pink);
+  color: var(--color-text-on-accent);
+  border-color: var(--color-brand-pink);
+}
+
+.btn--primary:hover {
+  background-color: #b3687a;
+  border-color: #b3687a;
+}
+
+/* Secondary: outline pink */
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-brand-pink);
+  border-color: var(--color-brand-pink);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-brand-pink);
+  color: var(--color-text-on-accent);
+}

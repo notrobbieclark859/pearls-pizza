@@ -1,0 +1,50 @@
+.card-reservations {
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.card-reservations__title {
+  font-family: var(--font-display);
+  font-weight: var(--type-h2-weight);
+  font-size: var(--type-h2-size);
+  line-height: var(--type-h2-lh);
+  color: var(--color-text-primary);
+}
+
+.card-reservations__intro {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-lg-size);
+  line-height: var(--type-body-lg-lh);
+  color: var(--color-text-subtle);
+}
+
+.card-reservations__detail {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--color-text-primary);
+}
+
+.card-reservations__phone {
+  color: var(--color-brand-teal);
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.card-reservations__phone:hover {
+  opacity: 0.8;
+}
+
+.card-reservations__fine-print {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-sm-size);
+  line-height: var(--type-body-sm-lh);
+  color: var(--color-text-subtle);
+}

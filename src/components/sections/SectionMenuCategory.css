@@ -1,0 +1,20 @@
+.section-menu-category {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.section-menu-category__notice {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--color-text-subtle);
+  font-style: italic;
+}
+
+.section-menu-category__items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}

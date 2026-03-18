@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Pearl's Pizza — Design Tokens
+   ========================================================================== */
+
+:root {
+  /* ── Colors ─────────────────────────────── */
+  --color-bg-primary:   #1a1a1a;   /* page background */
+  --color-bg-surface:   #2a2a2a;   /* card / elevated surface */
+  --color-border:       #3a3a3a;   /* dividers, borders */
+
+  --color-text-primary:   #ffffff;
+  --color-text-secondary: #e6eae7;
+  --color-text-subtle:    #a0a0a0;
+  --color-text-accent:    #c47987;  /* pink — prices, CTAs */
+  --color-text-on-accent: #1a1a1a;  /* dark text on pink bg */
+
+  --color-brand-pink:     #c47987;
+  --color-brand-teal:     #93c4c8;
+  --color-surface-card:   #ead5d7;  /* warm pink — featured cards */
+
+  /* ── Typography ─────────────────────────── */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Lato', Arial, sans-serif;
+
+  /* ── Type Scale ─────────────────────────── */
+  --type-h1-size:   48px;
+  --type-h1-weight: 700;
+  --type-h1-lh:     1;
+
+  --type-h2-size:   36px;
+  --type-h2-weight: 600;
+  --type-h2-lh:     42px;
+
+  --type-h3-size:   24px;
+  --type-h3-weight: 600;
+  --type-h3-lh:     30px;
+
+  --type-body-xl-size: 24px;
+  --type-body-xl-lh:   1;
+
+  --type-body-lg-size: 18px;
+  --type-body-lg-lh:   28px;
+
+  --type-body-size: 16px;
+  --type-body-lh:   26px;
+
+  --type-body-sm-size: 16px;
+  --type-body-sm-lh:   24px;
+
+  --type-label-size:   12px;
+  --type-label-weight: 600;
+  --type-label-lh:     1;
+
+  /* ── Spacing ────────────────────────────── */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-24:  96px;
+
+  /* ── Border Radius ──────────────────────── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  16px;
+
+  /* ── Layout ─────────────────────────────── */
+  --content-max-width: 1200px;
+  --content-padding:   48px;
+  --nav-height:        50px;
+}

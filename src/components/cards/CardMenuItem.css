@@ -1,0 +1,59 @@
+.card-menu-item {
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* Name + price row */
+.card-menu-item__top-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-2);
+}
+
+.card-menu-item__name {
+  flex: 1;
+  font-family: var(--font-display);
+  font-weight: var(--type-h3-weight);
+  font-size: var(--type-h3-size);
+  line-height: var(--type-h3-lh);
+  color: var(--color-text-primary);
+  min-width: 0;
+}
+
+.card-menu-item__price {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-lg-size);
+  line-height: var(--type-body-lg-lh);
+  color: var(--color-text-accent);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.card-menu-item__description {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--color-text-secondary);
+}
+
+.card-menu-item__badges {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  padding: 0 var(--space-2);
+}
+
+.card-menu-item__addon {
+  font-family: var(--font-body);
+  font-weight: var(--type-label-weight);
+  font-size: var(--type-label-size);
+  line-height: var(--type-label-lh);
+  color: var(--color-text-subtle);
+}
